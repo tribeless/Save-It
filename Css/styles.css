@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Modak&family=Montserrat:wght@300;500&display=swap');
+ 
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body,html{
+    background-color: #c8d6e5;
+    font-family: 'Montserrat',
+    sans-serif;
+    text-align: center;
+}
+.main{
+    left: 300px;
+    background-color: #f1f1f1;
+    height: auto;
+    width: 50%;
+    position: absolute;
+    padding: 2%;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+.app-name{
+    font-family: 'Alata', sans-serif;
+}
+.simple-input{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]{
+    border:none;
+    text-align: center;
+    height:50px;
+    border-radius: 20px;
+    display: block;
+    font-size: 2rem;
+    margin: 1.5rem;
+    
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.submittask{
+    border-radius: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    border-color:black ;
+}
+.mytasks{
+    font-size: 1.5rem;
+    margin: 1.2rem 1.2rem 0 1.2rem;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    font-size: 1rem;
+    margin: .5rem;
+    cursor: pointer;
+    background-color: #c8d6e5;
+    border-radius:20px;
+    padding:6%;
+    display: inline-block;
+       
+}
+li:hover{
+    transform: scale(1.1);
+    transition:.5s ease-in-out;
+}
+.clear-user-task-list{
+    font-size: 1.7rem;
+    background-color: #ff6b6b;
+    padding: 3%;
+    border: none;
+    border-radius: 20px;
+    outline:none;
+    margin: .5rem;
+}
+
+.headerone{
+border:none;
+border-bottom: 1px;
+border-style: solid;
+height: 0;
+width: 20%;
+border-color: #525558;
+position: relative;
+margin-left:250px;
+
+}
+.headertwo{
+    border:none;
+    border-bottom: 1px;
+    border-style: solid;
+    height: 0;
+    width: 10%;
+    border-color: #525558;
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+.remove-single-item{
+    border: none;
+    font-size: 1rem;
+    margin-left:2rem;
+    border-radius: 20px;
+    background-color: #c8d6e5;
+}

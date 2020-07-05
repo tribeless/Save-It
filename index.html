@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="simple to do app that you can work with easily and on the go">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save-It</title>
+    <link rel="stylesheet" href="Css/styles.css">
+
+</head>
+<body>
+    <div class="main">
+        <h1 class="app-name">Add Tasks</h1><hr class="headerone">
+        <div class="simple-input">
+            <input type="text" name="usersInput" id="userTask" required>
+            <button type="button" class="submittask" >Add</button>
+        </div>
+        <div class="contents">
+            <h3 class="mytasks">MyTasks</h3><hr class="headertwo">
+            <ul class="user-task-list"></ul>
+        </div>
+ 
+        <button class="clear-user-task-list">Clear All</button>
+    </div>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
