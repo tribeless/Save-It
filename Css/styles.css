@@ -70,6 +70,10 @@ input[type="text"]:focus{
     justify-content: center;
     align-items: center;
 }
+.contents>ul{
+    display:flex;
+    flex-direction:column-reverse;
+}
 li {
     list-style-type: none;
     font-size: 1rem;
