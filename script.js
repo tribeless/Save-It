@@ -9,8 +9,6 @@ loadAllEventListeners();
 function loadAllEventListeners(){
     $(".submittask").on("click", addUserTask);
 
-    
-    //document.querySelectorAll(".remove-single-item").addEventListener("click", () => alert("working"));
     //load content on page load
     document.addEventListener("DOMContentLoaded", retrieveAllUsersTasks);
 
@@ -21,8 +19,7 @@ function loadAllEventListeners(){
     //remove all userstasks
     $(".clear-user-task-list").click(clearAllUsersTasks);
 
-    //remove select element
-    //
+
 }
 
 //counter to remove an annoying button
@@ -44,7 +41,7 @@ function removeAnnoyingX(){
 
 //called to scroll page to current text is
 function scrollToNewPosition(){
-    document.querySelector(".user-task-list").scrollTop = document.querySelector(".user-task-list").scrollHeight;
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 //when page loads, retrieve previous existing user tasks from local storage
